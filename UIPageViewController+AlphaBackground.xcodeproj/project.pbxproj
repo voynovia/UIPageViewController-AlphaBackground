@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57AFB8CAF6AEA501E7C4367 /* Pods_UIPageViewController_AlphaBackground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF6F84BD77844A4AB8423DC /* Pods_UIPageViewController_AlphaBackground.framework */; };
+		F70DC7AF1E8D5FD700650F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DC7AE1E8D5FD700650F4C /* AppDelegate.swift */; };
+		F70DC7B11E8D5FD700650F4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DC7B01E8D5FD700650F4C /* ViewController.swift */; };
+		F70DC7B41E8D5FD700650F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70DC7B21E8D5FD700650F4C /* Main.storyboard */; };
+		F70DC7B61E8D5FD700650F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70DC7B51E8D5FD700650F4C /* Assets.xcassets */; };
+		F70DC7B91E8D5FD700650F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70DC7B71E8D5FD700650F4C /* LaunchScreen.storyboard */; };
+		F70DC7C21E8D612D00650F4C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DC7C11E8D612D00650F4C /* PageViewController.swift */; };
+		F70DC7C41E8D616C00650F4C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DC7C31E8D616C00650F4C /* Page.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70526FCE8C9BCEAEA1A067F6 /* Pods-UIPageViewController+AlphaBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPageViewController+AlphaBackground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIPageViewController+AlphaBackground/Pods-UIPageViewController+AlphaBackground.debug.xcconfig"; sourceTree = "<group>"; };
+		7CF6F84BD77844A4AB8423DC /* Pods_UIPageViewController_AlphaBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPageViewController_AlphaBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29311EE958A2F4B939590B1 /* Pods-UIPageViewController+AlphaBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPageViewController+AlphaBackground.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIPageViewController+AlphaBackground/Pods-UIPageViewController+AlphaBackground.release.xcconfig"; sourceTree = "<group>"; };
+		F70DC7AB1E8D5FD700650F4C /* UIPageViewController+AlphaBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIPageViewController+AlphaBackground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70DC7AE1E8D5FD700650F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70DC7B01E8D5FD700650F4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70DC7B31E8D5FD700650F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F70DC7B51E8D5FD700650F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70DC7B81E8D5FD700650F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F70DC7BA1E8D5FD700650F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70DC7C11E8D612D00650F4C /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F70DC7C31E8D616C00650F4C /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70DC7A81E8D5FD700650F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57AFB8CAF6AEA501E7C4367 /* Pods_UIPageViewController_AlphaBackground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC1572EE6ACB3029F7299AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70526FCE8C9BCEAEA1A067F6 /* Pods-UIPageViewController+AlphaBackground.debug.xcconfig */,
+				D29311EE958A2F4B939590B1 /* Pods-UIPageViewController+AlphaBackground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3475C95E784DF7EFC79DA21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF6F84BD77844A4AB8423DC /* Pods_UIPageViewController_AlphaBackground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70DC7A21E8D5FD700650F4C = {
+			isa = PBXGroup;
+			children = (
+				F70DC7AD1E8D5FD700650F4C /* UIPageViewController+AlphaBackground */,
+				F70DC7AC1E8D5FD700650F4C /* Products */,
+				DFC1572EE6ACB3029F7299AA /* Pods */,
+				F3475C95E784DF7EFC79DA21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F70DC7AC1E8D5FD700650F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70DC7AB1E8D5FD700650F4C /* UIPageViewController+AlphaBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70DC7AD1E8D5FD700650F4C /* UIPageViewController+AlphaBackground */ = {
+			isa = PBXGroup;
+			children = (
+				F70DC7C01E8D60DE00650F4C /* Supporting Files */,
+				F70DC7B01E8D5FD700650F4C /* ViewController.swift */,
+				F70DC7C11E8D612D00650F4C /* PageViewController.swift */,
+				F70DC7C31E8D616C00650F4C /* Page.swift */,
+				F70DC7B21E8D5FD700650F4C /* Main.storyboard */,
+			);
+			path = "UIPageViewController+AlphaBackground";
+			sourceTree = "<group>";
+		};
+		F70DC7C01E8D60DE00650F4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70DC7AE1E8D5FD700650F4C /* AppDelegate.swift */,
+				F70DC7B51E8D5FD700650F4C /* Assets.xcassets */,
+				F70DC7B71E8D5FD700650F4C /* LaunchScreen.storyboard */,
+				F70DC7BA1E8D5FD700650F4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70DC7AA1E8D5FD700650F4C /* UIPageViewController+AlphaBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70DC7BD1E8D5FD700650F4C /* Build configuration list for PBXNativeTarget "UIPageViewController+AlphaBackground" */;
+			buildPhases = (
+				44F348CDEA3EF7954FCFD169 /* [CP] Check Pods Manifest.lock */,
+				F70DC7A71E8D5FD700650F4C /* Sources */,
+				F70DC7A81E8D5FD700650F4C /* Frameworks */,
+				F70DC7A91E8D5FD700650F4C /* Resources */,
+				EBD59992E438B90195E4D5F3 /* [CP] Embed Pods Frameworks */,
+				6D7376C9D61F770888A4C225 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIPageViewController+AlphaBackground";
+			productName = "UIPageViewController+AlphaBackground";
+			productReference = F70DC7AB1E8D5FD700650F4C /* UIPageViewController+AlphaBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70DC7A31E8D5FD700650F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Igor Voynov";
+				TargetAttributes = {
+					F70DC7AA1E8D5FD700650F4C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = URPAD7DNKD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F70DC7A61E8D5FD700650F4C /* Build configuration list for PBXProject "UIPageViewController+AlphaBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70DC7A21E8D5FD700650F4C;
+			productRefGroup = F70DC7AC1E8D5FD700650F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70DC7AA1E8D5FD700650F4C /* UIPageViewController+AlphaBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70DC7A91E8D5FD700650F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70DC7B91E8D5FD700650F4C /* LaunchScreen.storyboard in Resources */,
+				F70DC7B61E8D5FD700650F4C /* Assets.xcassets in Resources */,
+				F70DC7B41E8D5FD700650F4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F348CDEA3EF7954FCFD169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7376C9D61F770888A4C225 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPageViewController+AlphaBackground/Pods-UIPageViewController+AlphaBackground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD59992E438B90195E4D5F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPageViewController+AlphaBackground/Pods-UIPageViewController+AlphaBackground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70DC7A71E8D5FD700650F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70DC7C21E8D612D00650F4C /* PageViewController.swift in Sources */,
+				F70DC7B11E8D5FD700650F4C /* ViewController.swift in Sources */,
+				F70DC7C41E8D616C00650F4C /* Page.swift in Sources */,
+				F70DC7AF1E8D5FD700650F4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F70DC7B21E8D5FD700650F4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70DC7B31E8D5FD700650F4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F70DC7B71E8D5FD700650F4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70DC7B81E8D5FD700650F4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70DC7BB1E8D5FD700650F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70DC7BC1E8D5FD700650F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70DC7BE1E8D5FD700650F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70526FCE8C9BCEAEA1A067F6 /* Pods-UIPageViewController+AlphaBackground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = URPAD7DNKD;
+				INFOPLIST_FILE = "UIPageViewController+AlphaBackground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.voynov.UIPageViewController-AlphaBackground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F70DC7BF1E8D5FD700650F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29311EE958A2F4B939590B1 /* Pods-UIPageViewController+AlphaBackground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = URPAD7DNKD;
+				INFOPLIST_FILE = "UIPageViewController+AlphaBackground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.voynov.UIPageViewController-AlphaBackground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70DC7A61E8D5FD700650F4C /* Build configuration list for PBXProject "UIPageViewController+AlphaBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70DC7BB1E8D5FD700650F4C /* Debug */,
+				F70DC7BC1E8D5FD700650F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70DC7BD1E8D5FD700650F4C /* Build configuration list for PBXNativeTarget "UIPageViewController+AlphaBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70DC7BE1E8D5FD700650F4C /* Debug */,
+				F70DC7BF1E8D5FD700650F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70DC7A31E8D5FD700650F4C /* Project object */;
+}
